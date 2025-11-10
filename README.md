@@ -58,11 +58,10 @@ tda-webdev-internship-2025/
 ## 🧩 Weekly Submissions
 
 | Week | Task Title | Description | Status |
-|------|-------------|-------------|---------|
-| 1 | Landing Page Design | Created a responsive website using HTML, CSS, JS | ✅ Completed |
-| 2 | Portfolio Website | Developed a personal portfolio using React.js | ⏳ In Progress |
-| 3 | CRUD Web App | Built a basic CRUD app using Node.js & MongoDB | ⏳ Pending |
-| ... | ... | ... | ... |
+|:----:|-------------|-------------|:-------:|
+| 1 | **Landing Page Design** | Created a responsive website using **HTML, CSS** | ✅ Completed |
+| 2 | **Portfolio Styling with CSS** | Styled Week 1 portfolio using **CSS** for colors, fonts, and spacing | ⏳ In Progress |
+
 
 ---
 
