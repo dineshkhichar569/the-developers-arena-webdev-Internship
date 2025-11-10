@@ -21,7 +21,7 @@ Each week’s folder includes:
 ## 🗂️ Folder Structure
 tda-webdev-internship-2025/
 │
-├── README.md                      ← Main project overview
+├── README.md                 ← Main project overview
 │
 ├── week1-task/
 ├── week2-task/
@@ -35,6 +35,7 @@ tda-webdev-internship-2025/
 ├── week10-task/
 ├── week11-task/
 └── week12-task/
+
 
 
 
