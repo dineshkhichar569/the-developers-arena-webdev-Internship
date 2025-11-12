@@ -44,7 +44,6 @@ I built a simple **portfolio website** that represents me and my work.
 repo/
 └── week1/
 ├── index.html
-├── images/
 └── README.md
 
 ```
@@ -73,8 +72,6 @@ repo/
 ## 🧾 License
 This project is **open-source** and created for **learning and practice**.  
 💙 Feel free to explore, learn, and improve!
-
-
 
 
 
