@@ -1,0 +1,38 @@
+{
+    "sourceFile": "week3-task/README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1764609031543,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1764609043409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,7 +42,10 @@\n \r\n ## 🗂️ Folder Structure\r\n ```bash\r\n repo/\r\n-└── week3/\r\n-    ├── task-manager.html\r\n-    └── README.md\r\n+└── week2/\r\n+├── index.html\r\n+├── style.css\r\n+└── README.md\r\n+\r\n+```\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1764609048982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,7 +45,8 @@\n repo/\r\n └── week2/\r\n ├── index.html\r\n ├── style.css\r\n+\r\n └── README.md\r\n \r\n ```\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1764609054121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,8 +45,7 @@\n repo/\r\n └── week2/\r\n ├── index.html\r\n ├── style.css\r\n-\r\n └── README.md\r\n \r\n ```\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1764609062404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,7 +45,8 @@\n repo/\r\n └── week2/\r\n ├── index.html\r\n ├── style.css\r\n+├── script.js\r\n └── README.md\r\n \r\n ```\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1764609083098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,5 +48,7 @@\n ├── style.css\r\n ├── script.js\r\n └── README.md\r\n \r\n-```\n\\ No newline at end of file\n+```\r\n+\r\n+\r\n"
+                }
+            ],
+            "date": 1764609031543,
+            "name": "Commit-0",
+            "content": "# ⚡ Week 3 – JavaScript Basics & Interactivity\r\n\r\n## 🧠 What I Learned\r\nThis week, I learned how to use **JavaScript** to make web pages interactive instead of just static.  \r\nI used JS to work with the DOM, handle events, and update the page dynamically based on user actions.\r\n\r\n---\r\n\r\n## 🪄 Key Concepts\r\n- 🧮 What JavaScript is and how it runs in the browser  \r\n- 📦 Variables and data (storing task information)  \r\n- 🧱 DOM manipulation – selecting and updating elements  \r\n- 🎯 Event handling – clicks, form submit, button actions  \r\n- ✅ Basic form validation (checking if input is empty)  \r\n- 💾 Using `localStorage` to save tasks in the browser  \r\n\r\n---\r\n\r\n## 💻 What I Built\r\n✨ **Project:** Simple Interactive Task Manager\r\n\r\nFeatures:\r\n- Add new tasks\r\n- Mark tasks as **Done / Undo**\r\n- Delete tasks\r\n- Tasks are saved in **localStorage**, so they stay after refresh\r\n\r\nThis project helped me practice:\r\n- Working with arrays and objects in JS  \r\n- Updating the DOM when data changes  \r\n- Connecting HTML, CSS, and JavaScript together in one page  \r\n\r\n---\r\n\r\n## ▶️ How to Run\r\n1. Open the `week3` folder.\r\n2. Double-click `task-manager.html`.\r\n3. The Task Manager will open in your browser.\r\n4. Add some tasks and refresh the page to see that they are still saved.\r\n\r\n---\r\n\r\n## 🗂️ Folder Structure\r\n```bash\r\nrepo/\r\n└── week3/\r\n    ├── task-manager.html\r\n    └── README.md\r\n"
+        }
+    ]
+}

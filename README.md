@@ -60,8 +60,9 @@ tda-webdev-internship-2025/
 | Week | Task Title | Description | Status |
 |:----:|-------------|-------------|:-------:|
 | 1 | **Landing Page Design** | Created a responsive website using **HTML, CSS** | ✅ Completed |
-| 2 | **Portfolio Styling with CSS** | Styled Week 1 portfolio using **CSS** for colors, fonts, and spacing | ⏳ In Progress |
-
+| 2 | **Portfolio Styling with CSS** | Styled Week 1 portfolio using **CSS** for colors, fonts, and spacing | ✅ Completed |
+| 3 | **JavaScript Task Manager** | Built a simple Task Manager using JavaScript (Add, Done/Undo, Delete, LocalStorage) | ✅ Completed |
+| 4 | **Responsive Web Design & Final Project** | Learned responsive layout using Flexbox, Grid, Media Queries + building a complete responsive website for a business | 🟡 In Progress |
 
 ---
 
