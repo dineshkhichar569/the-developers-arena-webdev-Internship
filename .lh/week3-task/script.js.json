@@ -1,0 +1,26 @@
+{
+    "sourceFile": "week3-task/script.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1764608388928,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1764608395801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,66 @@\n+const STORAGE_KEY = \"simple_tasks\";\r\n+let tasks = [];\r\n+\r\n+const form = document.getElementById(\"task-form\");\r\n+const input = document.getElementById(\"task-input\");\r\n+const list = document.getElementById(\"task-list\");\r\n+\r\n+// Load from localStorage\r\n+function loadTasks() {\r\n+  const raw = localStorage.getItem(STORAGE_KEY);\r\n+  tasks = raw ? JSON.parse(raw) : [];\r\n+}\r\n+\r\n+function saveTasks() {\r\n+  localStorage.setItem(STORAGE_KEY, JSON.stringify(tasks));\r\n+}\r\n+\r\n+function render() {\r\n+  list.innerHTML = \"\";\r\n+  tasks.forEach((task, index) => {\r\n+    const li = document.createElement(\"li\");\r\n+    li.className = task.done ? \"done\" : \"\";\r\n+\r\n+    const textSpan = document.createElement(\"span\");\r\n+    textSpan.textContent = task.text;\r\n+\r\n+    const buttons = document.createElement(\"div\");\r\n+\r\n+    const toggleBtn = document.createElement(\"button\");\r\n+    toggleBtn.textContent = task.done ? \"Undo\" : \"Done\";\r\n+    toggleBtn.onclick = () => {\r\n+      tasks[index].done = !tasks[index].done;\r\n+      saveTasks();\r\n+      render();\r\n+    };\r\n+\r\n+    const deleteBtn = document.createElement(\"button\");\r\n+    deleteBtn.textContent = \"Delete\";\r\n+    deleteBtn.onclick = () => {\r\n+      tasks.splice(index, 1);\r\n+      saveTasks();\r\n+      render();\r\n+    };\r\n+\r\n+    buttons.appendChild(toggleBtn);\r\n+    buttons.appendChild(deleteBtn);\r\n+\r\n+    li.appendChild(textSpan);\r\n+    li.appendChild(buttons);\r\n+    list.appendChild(li);\r\n+  });\r\n+}\r\n+\r\n+form.addEventListener(\"submit\", (e) => {\r\n+  e.preventDefault();\r\n+  const text = input.value.trim();\r\n+  if (!text) return;\r\n+  tasks.push({ text, done: false });\r\n+  input.value = \"\";\r\n+  saveTasks();\r\n+  render();\r\n+});\r\n+\r\n+// Init\r\n+loadTasks();\r\n+render();\r\n"
+                },
+                {
+                    "date": 1764608402858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,7 +60,6 @@\n   saveTasks();\r\n   render();\r\n });\r\n \r\n-// Init\r\n loadTasks();\r\n render();\r\n"
+                }
+            ],
+            "date": 1764608388928,
+            "name": "Commit-0",
+            "content": "  <script>\r\n    const STORAGE_KEY = \"simple_tasks\";\r\n    let tasks = [];\r\n\r\n    const form = document.getElementById(\"task-form\");\r\n    const input = document.getElementById(\"task-input\");\r\n    const list = document.getElementById(\"task-list\");\r\n\r\n    // Load from localStorage\r\n    function loadTasks() {\r\n      const raw = localStorage.getItem(STORAGE_KEY);\r\n      tasks = raw ? JSON.parse(raw) : [];\r\n    }\r\n\r\n    function saveTasks() {\r\n      localStorage.setItem(STORAGE_KEY, JSON.stringify(tasks));\r\n    }\r\n\r\n    function render() {\r\n      list.innerHTML = \"\";\r\n      tasks.forEach((task, index) => {\r\n        const li = document.createElement(\"li\");\r\n        li.className = task.done ? \"done\" : \"\";\r\n\r\n        const textSpan = document.createElement(\"span\");\r\n        textSpan.textContent = task.text;\r\n\r\n        const buttons = document.createElement(\"div\");\r\n\r\n        const toggleBtn = document.createElement(\"button\");\r\n        toggleBtn.textContent = task.done ? \"Undo\" : \"Done\";\r\n        toggleBtn.onclick = () => {\r\n          tasks[index].done = !tasks[index].done;\r\n          saveTasks();\r\n          render();\r\n        };\r\n\r\n        const deleteBtn = document.createElement(\"button\");\r\n        deleteBtn.textContent = \"Delete\";\r\n        deleteBtn.onclick = () => {\r\n          tasks.splice(index, 1);\r\n          saveTasks();\r\n          render();\r\n        };\r\n\r\n        buttons.appendChild(toggleBtn);\r\n        buttons.appendChild(deleteBtn);\r\n\r\n        li.appendChild(textSpan);\r\n        li.appendChild(buttons);\r\n        list.appendChild(li);\r\n      });\r\n    }\r\n\r\n    form.addEventListener(\"submit\", (e) => {\r\n      e.preventDefault();\r\n      const text = input.value.trim();\r\n      if (!text) return;\r\n      tasks.push({ text, done: false });\r\n      input.value = \"\";\r\n      saveTasks();\r\n      render();\r\n    });\r\n\r\n    // Init\r\n    loadTasks();\r\n    render();\r\n  </script>"
+        }
+    ]
+}
