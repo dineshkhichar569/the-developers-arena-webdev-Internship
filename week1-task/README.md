@@ -47,7 +47,15 @@ repo/
 └── README.md
 
 ```
+## ⚙️ Step-by-Step Installation & Configuration Guide
 
+1.  Clone this repository
+
+```bash
+git clone https://github.com/dineshkhichar569/the-developers-arena-webdev-Internship/tree/25a52d5f2e1e75d2497cd75aed6dc1b55a3f665c/week5-task
+```
+
+2. Open index.html in your browser
 
 ---
 
