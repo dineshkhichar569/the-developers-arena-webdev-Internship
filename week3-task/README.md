@@ -55,7 +55,7 @@ repo/
 1.  Clone this repository
 
 ```bash
-git clone https://github.com/dineshkhichar569/the-developers-arena-webdev-Internship/tree/a4210309ab34bc4cd3259b29d51c20a595c6a76e/week1-task
+git clone https://github.com/dineshkhichar569/the-developers-arena-webdev-Internship/tree/1ca308dba00c42b37fcca03d1d740f1bf8a9b6b8/week3-task
 ```
 
 2. Open index.html in your browser
