@@ -30,26 +30,45 @@ This project helped me practice:
 - Updating the DOM when data changes  
 - Connecting HTML, CSS, and JavaScript together in one page  
 
+
 ---
 
-## ▶️ How to Run
-1. Open the `week3` folder.
-2. Double-click `task-manager.html`.
-3. The Task Manager will open in your browser.
-4. Add some tasks and refresh the page to see that they are still saved.
+## ⚙️ Algorithms & Logic Used
+
+- 🧠 **DOM Selection Logic :** Used getElementById and querySelector to access elements.
+- 🎯 **Event Listener Logic :** Responded to user actions like clicks and form submission.
+- 🎯 **Event Listener Logic :** Responded to user actions like clicks and form submission.
+- 💾 **Local Storage Logic :** Stored and retrieved tasks and preferences from the browser.
+
+---
+
+## 🎯 Project
+
+✨ **Goal:** Add JavaScript interactivity to the portfolio.
+
+🔧 Project Built: Simple Interactive Task Manager
+**Features implemented:**
+
+- Add new tasks
+- Mark tasks as Done / Undo
+- Delete tasks
+- Save tasks using localStorage
 
 ---
 
 ## 🗂️ Folder Structure
+
 ```bash
 repo/
-└── week2/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+|- week3/
+    |- index.html
+    |- style.css
+    |- script.js
+    |- images/
+    |- README.md
 
 ```
+
 ## ⚙️ Step-by-Step Installation & Configuration Guide
 
 1.  Clone this repository
@@ -59,6 +78,38 @@ git clone https://github.com/dineshkhichar569/the-developers-arena-webdev-Intern
 ```
 
 2. Open index.html in your browser
+
+---
+
+## 🧩 Day 1 – JavaScript Setup
+
+#### 🧩 Day 1 – CSS Setup
+
+- Created `script.js`, linked it to HTML, tested with` console.log()`.
+
+#### 🧱 Day 2 – DOM Manipulation
+
+- Selected elements and updated text and styles dynamically.
+
+#### 🎯 Day 3 – Event Handling
+
+- Added click, submit, and input event listeners.
+
+#### ✅ Day 4 – Form Validation
+
+- Validated form inputs with error and success messages.
+
+#### 💡 Day 5 – Interactive Features
+
+- Implemented task manager and dark/light mode toggle.
+
+#### 💾 Day 6 – Local Storage
+
+- Stored and retrieved tasks and user preferences.
+
+#### 🚀 Day 7 – Testing & Debugging
+
+- Tested all features and fixed JavaScript errors.
 
 
 ---

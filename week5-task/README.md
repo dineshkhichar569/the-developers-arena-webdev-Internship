@@ -22,7 +22,7 @@ Concepts like CSS Grid, Flexbox, animations, and CSS variables made it easier to
 
 1. Built multiple layouts using CSS Grid.
 2. Created responsive menus using Flexbox.
-3. Implemented theme switching using :root custom properties.
+3. Implemented theme switching using `:root` custom properties.
 4. Added animations to cards, buttons & sections.
 5. Used pseudo-elements for decoration and structure.
 6. Reorganized CSS using the BEM methodology.
@@ -107,7 +107,7 @@ repo/
 git clone https://github.com/dineshkhichar569/the-developers-arena-webdev-Internship/tree/25a52d5f2e1e75d2497cd75aed6dc1b55a3f665c/week5-task
 ```
 
-2. Open index.html in your browser
+2. Open `index.html` in your browser
 
 ## 🗂️ Step-by-Step Guide
 
@@ -129,7 +129,7 @@ git clone https://github.com/dineshkhichar569/the-developers-arena-webdev-Intern
 
 #### 🔎 Day 5 – Advanced Selectors
 
-- Used pseudo-classes (:not, :nth-child) and pseudo-elements (::before, ::after).
+- Used pseudo-classes (:not, :nth-child) and pseudo-elements (`::before`, `::after`).
 
 #### 🧱 Day 6 – CSS Methodology (BEM)
 
