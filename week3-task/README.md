@@ -81,7 +81,7 @@ git clone https://github.com/dineshkhichar569/the-developers-arena-webdev-Intern
 
 ---
 
-## 🧩 Day 1 – JavaScript Setup
+## 🗂️ Step-by-Step Guide
 
 #### 🧩 Day 1 – CSS Setup
 
