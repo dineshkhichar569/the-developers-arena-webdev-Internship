@@ -113,7 +113,7 @@ repo/
 1.  Clone this repository
 
 ```bash
-git clone https://github.com/dineshkhichar569/the-developers-arena-webdev-Internship/tree/25a52d5f2e1e75d2497cd75aed6dc1b55a3f665c/week5-task
+git clone https://github.com/dineshkhichar569/the-developers-arena-webdev-Internship/tree/e9b6d40c8aeff48a1b37deb3b7335749e3b9102c/week7-task
 ```
 
 2. Navigate to the project directory

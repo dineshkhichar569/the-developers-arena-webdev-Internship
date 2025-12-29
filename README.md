@@ -62,6 +62,7 @@ tda-webdev-internship-2025/
 |  4   | **Responsive Web Design & Final Project** | Learned responsive layout using Flexbox, Grid, Media Queries + building a complete responsive website for a business | 🟡 In Progress |
 | 5 | **Advanced CSS & Modern Layouts** | Redesigned portfolio using **CSS Grid, Flexbox, animations, CSS variables, and BEM methodology** | ✅ Completed |
 | 6 | **Advanced JavaScript & APIs** | Building a Weather Dashboard Application using **async/await, REST APIs, and Local Storage** | 🟡 In Progress |
+|  7   | **Introduction to React.js** | Built a React Task Manager application using **React, JSX, functional components, hooks (useState, useEffect), and Local Storage** |  ✅ Completed  |
 
 ---
 
