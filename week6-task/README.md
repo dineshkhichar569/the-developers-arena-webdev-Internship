@@ -112,8 +112,10 @@ repo/
 
 ## Step-by-Step Installation & Configuration Guide
 
-1. Clone the repository  
-   *(Replace with your repository link)*
+1. Clone the repository
+```bash 
+   git clone https://github.com/dineshkhichar569/the-developers-arena-webdev-Internship/tree/ede4d8b3f2af9ec03348f256483bc4884090f707/week6-task
+   ```
 
 2. Navigate to the project directory  
 
