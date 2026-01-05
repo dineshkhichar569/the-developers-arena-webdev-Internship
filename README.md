@@ -63,6 +63,8 @@ tda-webdev-internship-2025/
 | 5 | **Advanced CSS & Modern Layouts** | Redesigned portfolio using **CSS Grid, Flexbox, animations, CSS variables, and BEM methodology** | ✅ Completed |
 | 6 | **Advanced JavaScript & APIs** | Building a Weather Dashboard Application using **async/await, REST APIs, and Local Storage** | ✅ Completed |
 |  7   | **Introduction to React.js** | Built a React Task Manager application using **React, JSX, functional components, hooks (useState, useEffect), and Local Storage** |  ✅ Completed  |
+|  8   | **Capstone Project – Full Frontend Application** | Built a complete **React-based E-commerce frontend** with product listing, cart, authentication simulation, checkout flow, API integration, state management, performance optimization, and deployment |  ✅ Completed  |
+
 
 ---
 
