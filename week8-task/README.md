@@ -145,7 +145,7 @@ repo/
 1.  Clone this repository
 
 ```bash
-git clone https://github.com/dineshkhichar569/the-developers-arena-webdev-Internship/tree/e9b6d40c8aeff48a1b37deb3b7335749e3b9102c/week7-task
+git clone https://github.com/dineshkhichar569/the-developers-arena-webdev-Internship/tree/7cef15b8a2e7c7675be35e652b18f75ce944da8e/week8-task
 ```
 
 2. Navigate to the project directory
