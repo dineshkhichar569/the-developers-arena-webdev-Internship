@@ -65,7 +65,7 @@ tda-webdev-internship-2025/
 |  7   | **Introduction to React.js** | Built a React Task Manager application using **React, JSX, functional components, hooks (useState, useEffect), and Local Storage** |  ✅ Completed  |
 |  8   | **Capstone Project – Full Frontend Application** | Built a complete **React-based E-commerce frontend** with product listing, cart, authentication simulation, checkout flow, API integration, state management, performance optimization, and deployment |  ✅ Completed  |
 |  9   | **Node.js & Backend Development (REST API)** | Built a **Blog REST API** using **Node.js, Express.js, JWT authentication, middleware architecture, CRUD operations, environment configuration, and API testing with Postman** |  ✅ Completed  |
-
+|  10  |
 
 ---
 
